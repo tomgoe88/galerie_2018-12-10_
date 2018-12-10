@@ -9,6 +9,7 @@ import { BildComponent } from './galerie/bild.component';
 import {routing} from './app.routing';
 import { LoginComponent } from './login/login.component';
 import { ImageUploadComponent } from './image-upload/image-upload.component';
+import { NavbarDirective } from './navbar.directive';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,9 @@ import { ImageUploadComponent } from './image-upload/image-upload.component';
     GalerieComponent,
     BildComponent,
     LoginComponent,
-    ImageUploadComponent
+    ImageUploadComponent,
+    NavbarDirective,
+
   ],
   imports: [
     BrowserModule,
